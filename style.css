@@ -67,3 +67,21 @@ h1 {
     background-repeat: no-repeat;
     background-position: left bottom;
 }
+
+#web-developer {
+    border-left: 5px solid;
+    border-image: linear-gradient(tomato, rgb(130, 12, 240));
+    border-image-slice: 1;
+}
+
+#baby-web-developer {
+    border-left: 5px solid;
+    border-image: linear-gradient(red, blue);
+    border-image-slice: 1;
+}
+
+footer {
+    text-align: center;
+    margin: 30px;
+    color: gray;
+}
