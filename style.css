@@ -12,7 +12,7 @@ h1 {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 150px;
 }
@@ -44,4 +44,26 @@ section {
     background-repeat: no-repeat;
     background-position: right;
 
+}
+
+.color-h3-tag {
+    color: red;
+}
+
+.resize-font {
+    font-size: 40px;
+}
+
+.exp-box {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+.experiences-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
 }
